@@ -85,7 +85,7 @@ export default function CartContextProvider ({children}) {
     }
 
     const value = {
-        items: shoppingCart.items,
+        items: carts.items,
         addItemsToCart: handleAddItemToCart,
         updateItems: handleUpdateCartItemQuantity,
     };
